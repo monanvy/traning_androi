@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 public class FoodheathActivity extends AppCompatActivity {
 
+    /** Called when the activity is first created. */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

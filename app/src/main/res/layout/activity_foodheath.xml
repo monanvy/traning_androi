@@ -6,5 +6,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.thuythanh.traning_androi.FoodheathActivity">
-
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Foodheath"
+        />
 </LinearLayout>
