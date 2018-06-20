@@ -18,11 +18,11 @@
         tools:fontFamily="sans-serif" />
 
     <Button
+        android:id="@+id/btnYourHeath"
         android:text="Your Heath"
         android:layout_width="273dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:id="@+id/btnYourHeath"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:background="@android:color/holo_green_dark"
@@ -31,11 +31,11 @@
         android:radius="100dp"/>
 
     <Button
+        android:id="@+id/btnStatus"
         android:text="Status"
         android:layout_width="273dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:id="@+id/btnStatus"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         tools:background="@android:color/holo_blue_dark"
