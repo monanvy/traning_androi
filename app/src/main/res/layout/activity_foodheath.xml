@@ -7,8 +7,39 @@
     android:orientation="vertical"
     tools:context="com.example.thuythanh.traning_androi.FoodheathActivity">
     <TextView
-        android:layout_width="fill_parent"
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Foodheath"
-        />
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:text="Food &amp; Heath"
+        android:layout_marginTop="100px"
+        tools:fontFamily="sans-serif" />
+
+    <Button
+        android:text="Your Heath"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btnYourHeath"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:layout_marginTop="50px"
+        android:radius="100dp"/>
+
+    <Button
+        android:text="Status"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btnStatus"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        tools:background="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_marginTop="50px" />
+
 </LinearLayout>
