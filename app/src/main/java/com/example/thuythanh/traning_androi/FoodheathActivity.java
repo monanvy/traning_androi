@@ -19,7 +19,7 @@ public class FoodheathActivity extends AppCompatActivity {
         btnYourHeath.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FoodheathActivity.this, YourheathActivity.class);
+                Intent intent = new Intent(FoodheathActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });

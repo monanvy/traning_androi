@@ -16,7 +16,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".FoodheathActivity" />
-        <activity android:name=".YourheathActivity"></activity>
+        <activity android:name=".YourheathActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
